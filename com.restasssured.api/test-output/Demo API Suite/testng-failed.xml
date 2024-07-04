@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo API Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Api Test(failed)">
+    <classes>
+      <class name="RestAsssuredProject.com.restasssured.api.DemoTestNg">
+        <methods>
+          <include name="getAllBookings"/>
+        </methods>
+      </class> <!-- RestAsssuredProject.com.restasssured.api.DemoTestNg -->
+    </classes>
+  </test> <!-- Api Test(failed) -->
+</suite> <!-- Failed suite [Demo API Suite] -->
